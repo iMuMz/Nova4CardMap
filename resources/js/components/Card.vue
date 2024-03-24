@@ -110,11 +110,13 @@ export default {
         };
     },
     mounted() {
-        $Scriptjs(
-            "https://maps.googleapis.com/maps/api/js?key=" +
-                this.card.googleApiKey +
-                "&loading=async"
-        );
+        if (this.visibleYesNoGoogle) {
+          $Scriptjs(
+              "https://maps.googleapis.com/maps/api/js?key=" +
+                  this.field.googleApiKey +
+                  "&loading=async"
+          );
+        }
 
         var map = L.map("map", {
             zoomControl: true,
