@@ -13,8 +13,13 @@
   "devDependencies": {
     "@vue/compiler-sfc": "^3.2.22",
     "laravel-mix": "^6.0.41",
+    "leaflet": "^1.9.4",
     "postcss": "^8.3.11",
     "vue-loader": "^16.8.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "leaflet.gridlayer.googlemutant": "^0.14.1",
+    "leaflet.markercluster": "^1.5.3",
+    "scriptjs": "^2.5.9"
+  }
 }
