@@ -20,11 +20,6 @@ use Imumz\Nova4CardMap\Nova4CardMap
 ```
 ### Available Methods
 
-#### Zoom
-```
-(new Nova4CardMap())
-->zoom(4)
-```
 #### Height
 ```
 (new Nova4CardMap())
