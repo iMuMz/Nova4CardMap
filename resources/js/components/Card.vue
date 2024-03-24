@@ -146,7 +146,6 @@ export default {
 
         let featureType = this.card.type;
         let popup = this.card.popup;
-        console.log(popup)
         let layerControl = L.control.layers(this.baseLayers, null, {
             position: "topright",
         });
