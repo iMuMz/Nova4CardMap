@@ -39,12 +39,12 @@ class Nova4CardMap extends Card
             'geoJson' => $geoJson
         ]);
     }
-    public function mapIcon($mapIcon,$mapIconSize = null,$mapIconAnchor = null){
+    public function markerIcon($markerIcon,$markerIconSize = null,$markerIconAnchor = null){
 
         return $this->withMeta([
-            'mapIcon' => $mapIcon,
-            'mapIconSize' => $mapIconSize,
-            'mapIconAnchor' => $mapIconAnchor
+            'markerIcon' => $markerIcon,
+            'markerIconSize' => $markerIconSize,
+            'markerIconAnchor' => $markerIconAnchor
         ]);
     }
 
