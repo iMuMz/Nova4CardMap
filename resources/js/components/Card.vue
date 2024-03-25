@@ -113,7 +113,7 @@ export default {
         if (this.visibleYesNoGoogle) {
           $Scriptjs(
               "https://maps.googleapis.com/maps/api/js?key=" +
-                  this.field.googleApiKey +
+                  this.card.googleApiKey +
                   "&loading=async"
           );
         }
