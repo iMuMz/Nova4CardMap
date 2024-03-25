@@ -4,7 +4,7 @@
 # Nova4CardMap
 Custom [Laravel Nova 4](https://nova.laravel.com/) map card using [Leaflet](https://leafletjs.com/). Supports Google Maps, marker clustering, map height, latitude and longitude coordinates, GeoJSON, marker popup and custom marker icons.
 
-![Screenshot 2024-03-24 at 16 59 48](https://github.com/iMuMz/Nova4CardMap/assets/22936672/7780566b-95f6-460d-b18a-4e13b77baa7b)
+![Screenshot 2024-03-24 at 16 59 48](https://github.com/iMuMz/Nova4CardMap/assets/22936672/ee2ca5d4-503d-4bf9-94a1-8c4725f74fce)
 
 ### Installation
 
@@ -82,6 +82,6 @@ You can pass additional parameters to set the icon size and anchor
 ```
 ->markerIcon('/images/marker-icon.png',[100,100],[50,50])
 ```
-![Screenshot 2024-03-24 at 17 09 31](https://github.com/iMuMz/Nova4CardMap/assets/22936672/b97dbb29-413d-49f5-842f-9cd63a116ee9)
+![Screenshot 2024-03-24 at 17 09 31](https://github.com/iMuMz/Nova4CardMap/assets/22936672/ca5a6f91-0337-4bb2-abce-dff1e1e25654)
 
 
