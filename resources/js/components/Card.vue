@@ -44,6 +44,8 @@ export default {
                 iconRetinaUrl: base64img,
                 iconUrl: base64img,
                 iconSize: [25,41],
+                //popupAnchor: [0, -30],
+                iconAnchor: [12,40],
                 shadowUrl: base64ShadowUrl,
             });
         } else {
