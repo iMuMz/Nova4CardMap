@@ -148,10 +148,9 @@ export default {
         let popup = this.card.popup;
 
         // Layer control
-        layerControl = L.control.layers(this.tileProviders, null, {
+        L.control.layers(this.tileProviders, null, {
             position: "topright",
         }).addTo(map);
-        layerControl.addTo(map);
 
         // Marker clustering
         var markers = L.markerClusterGroup({
